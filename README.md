@@ -1,3 +1,3 @@
 # hello-world
-Hello World Github
-Experimenting with commits, branches, repos.
+
+A space to put experiments with everything I am exploring in Computer Science
