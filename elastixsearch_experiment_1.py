@@ -2,8 +2,8 @@ from datetime import datetime
 from elasticsearch import Elasticsearch
 es = Elasticsearch()
 
-doc = {"author": "kimchy",
-       "text": "Elasticsearch: cool. Bonsai cool",
+doc = {"author": "raph",
+       "text": "raph says hello world!",
        'timestamp': datetime.now()}
 res = es.index(index='test-index',  doc_type='tweet', id=1, body=doc)
 print(res['result'])
