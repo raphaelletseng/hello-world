@@ -1,5 +1,5 @@
 {"index":{"_index":"employeedata","_id":0}}
-{"@timestamp":"date","type":"data""company":"facebook", "%Female": 35,"%Male": 65,"%White": 49,"%Asian": 40,"%Latino": 5,"%Black": 3,"%Multi": 3,"%Other": 1,"%Undeclared": 0}
+{"@timestamp":2019-08-30,"type":"data","company":"facebook", "%Female": 35,"%Male": 65,"%White": 49,"%Asian": 40,"%Latino": 5,"%Black": 3,"%Multi": 3,"%Other": 1,"%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":2}}
 {"type":"data","company":"instagram", "%Female": 35,
  "%Male": 65,
@@ -11,7 +11,7 @@
  "%Other": 1,
  "%Undeclared": 0}
  {"index":{"_index":"employeedata","_id":3}}
- {"@timestamp":"date","type":"data","company":"google",   "%Female": 31,
+ {"@timestamp":2019-08-30,"type":"data","company":"google",   "%Female": 31,
     "%Male": 69,
     "%White": 56,
     "%Asian": 35,
@@ -21,7 +21,7 @@
     "%Other": 1,
     "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":4}}
-{"@timestamp":"date","type":"data","company":"youtube","%Female": 31,
+{"@timestamp":2019-08-30,"type":"data","company":"youtube","%Female": 31,
 "%Male": 69,
 "%White": 56,
 "%Asian": 35,
@@ -31,7 +31,7 @@
 "%Other": 1,
 "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":5}}
-{"@timestamp":"date","type":"data","company":"linkedin",    "%Female": 42,
+{"@timestamp":2019-08-30,"type":"data","company":"linkedin",    "%Female": 42,
    "%Male": 58,
    "%White": 52,
    "%Asian": 39,
@@ -41,7 +41,7 @@
    "%Other": 1,
    "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":6}}
-{"@timestamp":"date","type":"data","company":"pinterest", "%Female": 45,
+{"@timestamp":2019-08-30,"type":"data","company":"pinterest", "%Female": 45,
  "%Male": 55,
  "%White": 48,
  "%Asian": 41,
@@ -51,7 +51,7 @@
  "%Other": 1,
  "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":7}}
-{"@timestamp":"date","type":"data","company":"tumblr", "%Female": 37,
+{"@timestamp":2019-08-30,"type":"data","company":"tumblr", "%Female": 37,
        "%Male": 63,
        "%White": 45,
        "%Asian": 44,
@@ -61,7 +61,7 @@
        "%Other": 3,
        "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":8}}
-{"@timestamp":"date","type":"data","company":"flickr","%Female": 37,
+{"@timestamp":2019-08-30,"type":"data","company":"flickr","%Female": 37,
 "%Male": 63,
 "%White": 45,
 "%Asian": 44,
@@ -71,7 +71,7 @@
 "%Other": 3,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":9}}
-{"@timestamp":"date","type":"data","company":"twitter","%Female": 38,
+{"@timestamp":2019-08-30,"type":"data","company":"twitter","%Female": 38,
 "%Male": 62,
 "%White": 44,
 "%Asian": 26,
@@ -81,7 +81,7 @@
 "%Other": 0,
 "%Undeclared": 21}
 {"index":{"_index":"employeedata","_id":10}}
-{"@timestamp":"date","type":"data","company":"yahoo","%Female": 37,
+{"@timestamp":2019-08-30,"type":"data","company":"yahoo","%Female": 37,
 "%Male": 63,
 "%White": 45,
 "%Asian": 44,
@@ -91,7 +91,7 @@
 "%Other": 3,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":11}}
-{"@timestamp":"date","type":"data","company":"apple","%Female": 32,
+{"@timestamp":2019-08-30,"type":"data","company":"apple","%Female": 32,
 "%Male": 68,
 "%White": 54,
 "%Asian": 21,
@@ -101,7 +101,7 @@
 "%Other": 1,
 "%Undeclared": 2}
 {"index":{"_index":"employeedata","_id":12}}
-{"@timestamp":"date","type":"data","company":"cisco", "%Female": 24,
+{"@timestamp":2019-08-30,"type":"data","company":"cisco", "%Female": 24,
    "%Male": 76,
    "%White": 53,
    "%Asian": 37,
@@ -111,7 +111,7 @@
    "%Other": 1,
    "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":13}}
-{"@timestamp":"date","type":"data","company":"ebay","%Female": 40,
+{"@timestamp":2019-08-30,"type":"data","company":"ebay","%Female": 40,
 "%Male": 60,
 "%White": 50,
 "%Asian": 39,
@@ -121,7 +121,7 @@
 "%Other": 1,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":14}}
-{"@timestamp":"date","type":"data","company":"hp","%Female": 37,
+{"@timestamp":2019-08-30,"type":"data","company":"hp","%Female": 37,
 "%Male": 63,
 "%White": 73,
 "%Asian": 12,
@@ -131,7 +131,7 @@
 "%Other": 1,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":15}}
-{"@timestamp":"date","type":"data","company":"indiegogo","%Female": 50,
+{"@timestamp":2019-08-30,"type":"data","company":"indiegogo","%Female": 50,
 "%Male": 50,
 "%White": 58,
 "%Asian": 28,
@@ -141,7 +141,7 @@
 "%Other": 3,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":16}}
-{"@timestamp":"date","type":"data","company":"nvidia","%Female": 17,
+{"@timestamp":2019-08-30,"type":"data","company":"nvidia","%Female": 17,
 "%Male": 83,
 "%White": 37,
 "%Asian": 45,
@@ -151,7 +151,7 @@
 "%Other": 1,
 "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":17}}
-{"@timestamp":"date","type":"data","company":"dell", "%Female": 28,
+{"@timestamp":2019-08-30,"type":"data","company":"dell", "%Female": 28,
 "%Male": 72,
 "%White": 69,
 "%Asian": 9,
@@ -161,7 +161,7 @@
 "%Other": 1,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":18}}
-{"@timestamp":"date","type":"data","company":"ingrammicro","%Female": 31,
+{"@timestamp":2019-08-30,"type":"data","company":"ingrammicro","%Female": 31,
 "%Male": 69,
 "%White": 52,
 "%Asian": 14,
@@ -171,7 +171,7 @@
 "%Other": 0,
 "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":19}}
-{"@timestamp":"date","type":"data","company":"intel", "%Female": 27,
+{"@timestamp":2019-08-30,"type":"data","company":"intel", "%Female": 27,
 "%Male": 74,
 "%White": 48,
 "%Asian": 39,
@@ -181,7 +181,7 @@
 "%Other": 1,
 "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":20}}
-{"@timestamp":"date","type":"data","company":"groupon","%Female": 44,
+{"@timestamp":2019-08-30,"type":"data","company":"groupon","%Female": 44,
 "%Male": 56,
 "%White": 62,
 "%Asian": 20,
@@ -191,7 +191,7 @@
 "%Other": 3,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":21}}
-{"@timestamp":"date","type":"data","company":"amazon",  "%Female": 39,
+{"@timestamp":2019-08-30,"type":"data","company":"amazon",  "%Female": 39,
  "%Male": 61,
  "%White": 48,
  "%Asian": 13,
@@ -201,7 +201,7 @@
  "%Other": 5,
  "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":22}}
-{"@timestamp":"date","type":"data","company":"etsy","%Female": 54,
+{"@timestamp":2019-08-30,"type":"data","company":"etsy","%Female": 54,
 "%Male": 46,
 "%White": 79,
 "%Asian": 10,
@@ -211,7 +211,7 @@
 "%Other": 1,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":23}}
-{"@timestamp":"date","type":"data","company":"microsoft", "%Female": 26,
+{"@timestamp":2019-08-30,"type":"data","company":"microsoft", "%Female": 26,
 "%Male": 74,
 "%White": 56,
 "%Asian": 31,
@@ -221,7 +221,7 @@
 "%Other": 1,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":24}}
-{"@timestamp":"date","type":"data","company":"salesforce", "%Female": 31,
+{"@timestamp":2019-08-30,"type":"data","company":"salesforce", "%Female": 31,
 "%Male": 69,
 "%White": 65,
 "%Asian": 24,
@@ -231,7 +231,7 @@
 "%Other": 0,
 "%Undeclared": 2}
 {"index":{"_index":"employeedata","_id":25}}
-{"@timestamp":"date","type":"data","company":"pandora",  "%Female": 49,
+{"@timestamp":2019-08-30,"type":"data","company":"pandora",  "%Female": 49,
  "%Male": 51,
  "%White": 65,
  "%Asian": 16,
@@ -241,7 +241,7 @@
  "%Other": 1,
  "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":26}}
-{"@timestamp":"date","type":"data","company":"uber, "%Female": 38,
+{"@timestamp":2019-08-30,"type":"data","company":"uber, "%Female": 38,
    "%Male": 62,
    "%White": 49,
    "%Asian": 32,
@@ -251,7 +251,7 @@
    "%Other": 1,
    "%Undeclared": 0 }
 {"index":{"_index":"employeedata","_id":27}}
-{"@timestamp":"date","type":"data","company":"slack", "%Female": 45,
+{"@timestamp":2019-08-30,"type":"data","company":"slack", "%Female": 45,
 "%Male": 55,
 "%White": 59,
 "%Asian": 24,
@@ -261,7 +261,7 @@
 "%Other": 1,
 "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":28}}
-{"@timestamp":"date","type":"data","company":"airbnb",  "%Female": 41,
+{"@timestamp":2019-08-30,"type":"data","company":"airbnb",  "%Female": 41,
  "%Male": 59,
  "%White": 50,
  "%Asian": 36,
@@ -271,7 +271,7 @@
  "%Other": 1,
  "%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":29}}
-{"@timestamp":"date","type":"data","company":"netflix","%Female": 43,
+{"@timestamp":2019-08-30,"type":"data","company":"netflix","%Female": 43,
 "%Male": 57,
 "%White": 49,
 "%Asian": 24,
@@ -281,7 +281,7 @@
 "%Other": 4,
 "%Undeclared": 13}
 {"index":{"_index":"employeedata","_id":30}}
-{"@timestamp":"date","type":"data","company":"yelp", "%Female": 54,
+{"@timestamp":2019-08-30,"type":"data","company":"yelp", "%Female": 54,
  "%Male": 46,
  "%White": 62,
  "%Asian": 15,
