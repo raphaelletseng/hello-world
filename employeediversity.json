@@ -1,5 +1,5 @@
 {"index":{"_index":"employeedata","_id":0}}
-{"@timestamp":"date","type":"data""company":"facebook", "%Female": 35,"%Male": 65,"%White": 49,"%Asian": 40,"%Latino": 5,"%Black": 3,"%Multi": 3,"%Other": 1,"%Undeclared": 0}
+{"@timestamp":"date","type":"data","company":"facebook", "%Female": 35,"%Male": 65,"%White": 49,"%Asian": 40,"%Latino": 5,"%Black": 3,"%Multi": 3,"%Other": 1,"%Undeclared": 0}
 {"index":{"_index":"employeedata","_id":2}}
 {"type":"data","company":"instagram", "%Female": 35,
  "%Male": 65,
