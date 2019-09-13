@@ -1,0 +1,40 @@
+{
+  $schema: "https://vega.github.io/schema/vega-lite/v2.json"
+  mark: point
+  title: "D against K"
+  data: {
+    url: {
+      %context%: true
+      
+      index: brand
+      body : {
+        size: 10000
+        _source: ['Brand', 'D', 'K']
+      }
+    }
+    format: {property: "hits.hits"}
+  }
+  encoding: {
+    x: {
+      field: _source.K
+      type: quantitative
+      scale: {domain: [0.2,0.85]}
+      title: "K"
+    }
+    y: {
+      field: _source.D
+      type: quantitative
+      scale: {domain: [1.0,1.2]}
+      title: "D"
+
+    }
+    color:{
+      field: _source.Brand
+      type: nominal
+    }
+    shape: {
+      field: _source.Brand
+      type: nominal
+    }
+  }
+}
