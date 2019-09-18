@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.center {
+  float: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer{
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 8px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 0.8;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+h1 {text-align: center;}
+p {text-align: center;}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Alya's Page</h1>
+  <p>A website created for Unamed Collective.</p>
+</div>
+
+<div class="navbar">
+  <a href="website_intro.html">Home</a>
+  <a href="Raph's Page.html"> Raph Tseng </a>
+  <a href = "Rebecca's Page.html"> Rebecca Chang </a>
+</div>
+
+<h1> Alya's Work </h1>
+<div class="row">
+  <div class="column">
+    <img src="Alya_art_1.jpg" alt="Alya1" onclick="myFunction(this);" width = 100% class = "center">
+  </div>
+  <div class="column">
+    <img src="Alya_art_2.jpg" alt="Alya2" onclick="myFunction(this);" width = 100% class = "center">
+  </div>
+  <div class="column">
+    <img src="Alya_art_3.jpg" alt="Alya3" onclick="myFunction(this);" width = 100% class = "center">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:60%" class = "center">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+<div class="footer">
+  <h2>Contact Us</h2>
+  <p> Get in touch to collaborate with us on exciting projects! </p>
+  <a href = "https:www.github.com/raphaelletseng">
+  <img src = "github_icon.png" alt = "github" width = "50" height = "50"> </a>
+  <br>
+  <a href="https:www.instagram.com/unamedcollective">
+  <img src = "Instagram_icon.png" alt = "ig" width = "50" height = "50"></a>
+
+</body>
+</html>
