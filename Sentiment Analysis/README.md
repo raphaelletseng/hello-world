@@ -39,10 +39,6 @@ document:
 Report on performance in terms of accuracy, speculate on success and failures of the models. Which ML learning classifier produced the best performance?
 For the best performing model, include a confusion matrix as a form of error analysis.
 
-Submit code in 'a1.py' and report as 'a1-answers.pdf'.
-
-9:00pm Oct 7th 2020 [Wednesday]
-
 ---
 
 Data split:
